@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Dark circle background -->
+  <circle cx="100" cy="100" r="96" fill="#111111" stroke="#CC1F1F" stroke-width="2"/>
+
+  <!-- Golden glow ring -->
+  <circle cx="100" cy="100" r="86" stroke="#D4A017" stroke-width="0.5" stroke-dasharray="4 3" opacity="0.5"/>
+
+  <!-- Wings — left -->
+  <path d="M100 105 C80 85, 45 80, 30 100 C45 95, 65 95, 80 108 Z" fill="#CC1F1F" opacity="0.9"/>
+  <path d="M100 110 C78 92, 38 90, 20 112 C40 106, 62 103, 82 115 Z" fill="#F59E0B" opacity="0.7"/>
+  <path d="M100 115 C75 100, 35 102, 15 125 C36 118, 60 113, 84 122 Z" fill="#D4A017" opacity="0.5"/>
+
+  <!-- Wings — right -->
+  <path d="M100 105 C120 85, 155 80, 170 100 C155 95, 135 95, 120 108 Z" fill="#CC1F1F" opacity="0.9"/>
+  <path d="M100 110 C122 92, 162 90, 180 112 C160 106, 138 103, 118 115 Z" fill="#F59E0B" opacity="0.7"/>
+  <path d="M100 115 C125 100, 165 102, 185 125 C164 118, 140 113, 116 122 Z" fill="#D4A017" opacity="0.5"/>
+
+  <!-- Center body / shield -->
+  <ellipse cx="100" cy="108" rx="16" ry="20" fill="#CC1F1F"/>
+  <ellipse cx="100" cy="107" rx="11" ry="15" fill="#1a0000"/>
+
+  <!-- W letter -->
+  <path d="M90 98 L93 115 L100 103 L107 115 L110 98" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Text — WINGS -->
+  <text x="100" y="148" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="13" font-weight="900" fill="#F5F0E8" letter-spacing="4">WINGS</text>
+
+  <!-- Text — DELIVERY -->
+  <text x="100" y="163" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="600" fill="#F59E0B" letter-spacing="5">DELIVERY</text>
+
+  <!-- Speed lines decorative -->
+  <line x1="30" y1="60" x2="50" y2="60" stroke="#F59E0B" stroke-width="1" opacity="0.4"/>
+  <line x1="35" y1="55" x2="48" y2="55" stroke="#CC1F1F" stroke-width="0.8" opacity="0.3"/>
+  <line x1="150" y1="60" x2="170" y2="60" stroke="#F59E0B" stroke-width="1" opacity="0.4" transform="scale(-1,1) translate(-200,0)"/>
+  <line x1="155" y1="55" x2="165" y2="55" stroke="#CC1F1F" stroke-width="0.8" opacity="0.3" transform="scale(-1,1) translate(-200,0)"/>
+</svg>

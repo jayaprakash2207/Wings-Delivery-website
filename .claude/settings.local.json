@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat \"c:\\\\wings d\\\\components\\\\layout\\\\Navbar.tsx\" > /tmp/navbar_backup.txt && echo \"read\")",
+      "PowerShell(Stop-Process -Name \"node\" -ErrorAction SilentlyContinue; Start-Sleep -Seconds 1; cd \"c:\\\\wings d\"; $env:NODE_OPTIONS=\"--max-old-space-size=4096\"; npm run build 2>&1 | Select-String -Pattern \"✓|error TS|Error|Route \\\\\\(app\\\\\\)\" | Select-Object -First 20)",
+      "Bash(NODE_OPTIONS=\"--max-old-space-size=4096\" npm run build)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"/ %{http_code}\\\\n\" http://localhost:3000)",
+      "Bash(curl -s -o /dev/null -w \"/about %{http_code}\\\\n\" http://localhost:3000/about)",
+      "Bash(curl -s -o /dev/null -w \"/how-it-works %{http_code}\\\\n\" http://localhost:3000/how-it-works)",
+      "Bash(curl -s -o /dev/null -w \"/coverage %{http_code}\\\\n\" http://localhost:3000/coverage)"
+    ],
+    "additionalDirectories": [
+      "\\tmp"
+    ]
+  }
+}
