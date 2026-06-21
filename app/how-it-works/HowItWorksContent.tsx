@@ -157,7 +157,7 @@ export default function HowItWorksContent() {
               </p>
             </div>
             <div className="flex justify-center">
-              <div className="w-72 rounded-3xl overflow-hidden shadow-2xl" style={{ background: '#141825', border: '1px solid rgba(255,255,255,0.07)' }}>
+              <div className="w-full max-w-[18rem] rounded-3xl overflow-hidden shadow-2xl" style={{ background: '#141825', border: '1px solid rgba(255,255,255,0.07)' }}>
                 <div className="px-4 py-3 flex items-center gap-3" style={{ background: '#1a1f2e', borderBottom: '1px solid rgba(255,255,255,0.07)' }}>
                   <div className="w-8 h-8 rounded-full bg-[#25D366]/20 flex items-center justify-center">
                     <MessageCircle size={16} className="text-[#25D366]" />
@@ -219,7 +219,7 @@ export default function HowItWorksContent() {
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {payments.map(({ icon: Icon, name, desc }) => (
-              <div key={name} className="card rounded-[14px] p-6 text-center hover:-translate-y-1 transition-transform duration-250">
+              <div key={name} className="card rounded-[14px] p-4 sm:p-6 text-center hover:-translate-y-1 transition-transform duration-250">
                 <Icon size={28} className="mx-auto mb-3" style={{ color: '#F97316' }} />
                 <p className="font-barlow font-bold text-sm uppercase text-[#EFF2F7]">{name}</p>
                 <p className="font-inter text-xs text-[#7E8A9E] mt-1">{desc}</p>

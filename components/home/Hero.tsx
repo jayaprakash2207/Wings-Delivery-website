@@ -121,17 +121,17 @@ export default function Hero() {
             style={{ y: logoY }}>
             {/* Outer ring */}
             <motion.div className="absolute rounded-full"
-              style={{ width: 400, height: 400, border: '1px solid rgba(249,115,22,0.1)' }}
+              style={{ width: 'min(400px, 88vw)', height: 'min(400px, 88vw)', border: '1px solid rgba(249,115,22,0.1)' }}
               animate={{ rotate: 360 }} transition={{ duration: 80, repeat: Infinity, ease: 'linear' }} />
             {/* Inner dashed ring */}
             <motion.div className="absolute rounded-full"
-              style={{ width: 320, height: 320, border: '1px dashed rgba(249,115,22,0.06)' }}
+              style={{ width: 'min(320px, 70vw)', height: 'min(320px, 70vw)', border: '1px dashed rgba(249,115,22,0.06)' }}
               animate={{ rotate: -360 }} transition={{ duration: 50, repeat: Infinity, ease: 'linear' }} />
             {/* Glow */}
             <div className="absolute rounded-full ambient-breathe"
-              style={{ width: 280, height: 280, background: 'radial-gradient(circle, rgba(249,115,22,0.12) 0%, rgba(249,115,22,0.03) 50%, transparent 70%)' }} />
+              style={{ width: 'min(280px, 62vw)', height: 'min(280px, 62vw)', background: 'radial-gradient(circle, rgba(249,115,22,0.12) 0%, rgba(249,115,22,0.03) 50%, transparent 70%)' }} />
             {/* Logo */}
-            <motion.div className="relative z-10 float" style={{ width: 260, height: 260 }}>
+            <motion.div className="relative z-10 float" style={{ width: 'min(260px, 58vw)', height: 'min(260px, 58vw)' }}>
               <Image src="/wings-delivery-logo.png" alt="Wings Delivery" fill className="object-contain"
                 style={{ filter: 'drop-shadow(0 0 50px rgba(249,115,22,0.2)) drop-shadow(0 25px 60px rgba(0,0,0,0.6))' }} priority />
             </motion.div>

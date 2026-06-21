@@ -36,8 +36,7 @@ export default function StatsBar() {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-0">
           {stats.map(({ value, suffix, label, sub }, i) => (
             <motion.div key={label}
-              className="flex flex-col gap-2 py-8 px-6 md:px-8"
-              style={{ borderLeft: i > 0 ? '1px solid rgba(255,255,255,0.07)' : 'none' }}
+              className={`flex flex-col gap-2 py-8 px-4 sm:px-6 md:px-8 ${i > 0 ? 'lg:border-l border-white/[0.07]' : ''}`}
               initial={{ opacity: 0, y: 18 }} whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1, duration: 0.7 }}>

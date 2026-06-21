@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import { MessageSquare, UtensilsCrossed, CreditCard, MapPin } from 'lucide-react'
 
 const steps = [
-  { n: '01', icon: MessageSquare, title: 'Message on WhatsApp', body: 'Send a text, voice note, or photo to +91 76038 14870. Our Gemini AI detects your language and responds naturally.' },
+  { n: '01', icon: MessageSquare, title: 'Message on WhatsApp', body: 'Send a text, voice note, or photo to +91 76038 14870. Our Axithor AI Conversation engine detects your language and responds naturally.' },
   { n: '02', icon: UtensilsCrossed, title: 'Pick from the menu', body: 'AI shares today\'s menu from local restaurants. Pick items — even from multiple kitchens in one order.' },
   { n: '03', icon: CreditCard, title: 'Pay inside WhatsApp', body: 'Razorpay sends a payment link right in the chat. UPI, GPay, PhonePe, cards — or choose cash at hub.' },
   { n: '04', icon: MapPin, title: 'Collect at your village pickup', body: 'Every village has a designated pickup point. You get a WhatsApp ping with an OTP when your food arrives. Walk over, show OTP, collect fresh.' },
@@ -31,7 +31,7 @@ export default function HowItWorks() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           {steps.map(({ n, icon: Icon, title, body }, i) => (
             <motion.div key={n}
-              className="card p-7 flex flex-col gap-5 group relative overflow-hidden"
+              className="card p-5 sm:p-7 flex flex-col gap-5 group relative overflow-hidden"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}

@@ -12,7 +12,7 @@ const items = [
   },
   {
     icon: Cpu,
-    title: 'Google Gemini AI',
+    title: 'Axithor AI',
     sub: 'Conversation engine',
     detail: 'Tamil · Tanglish · Telugu · English · Voice notes',
   },

@@ -65,7 +65,7 @@ export default function ForRestaurantsContent() {
             Weekly settlements. Simple WhatsApp integration.
           </p>
           <div className="mt-6">
-            <span className="font-bebas text-[#F97316]" style={{ fontSize: '3.2rem' }}>10+</span>
+            <span className="font-bebas text-[#F97316]" style={{ fontSize: 'clamp(2.4rem, 8vw, 3.2rem)' }}>10+</span>
             <span className="font-inter text-[#7E8A9E] text-sm ml-2">Restaurant partners and growing</span>
           </div>
         </div>
@@ -121,7 +121,7 @@ export default function ForRestaurantsContent() {
             <h2 className="font-playfair text-[#EFF2F7]" style={{ fontSize: 'clamp(1.6rem, 3vw, 2.2rem)', fontWeight: 600 }}>Register Your Restaurant</h2>
             <p className="font-inter text-[#7E8A9E] text-sm mt-3">Fill this form and we&apos;ll reach out within 24 hours.</p>
           </div>
-          <form onSubmit={handleSubmit} noValidate className="card rounded-2xl p-8 flex flex-col gap-5">
+          <form onSubmit={handleSubmit} noValidate className="card rounded-2xl p-5 sm:p-8 flex flex-col gap-5">
             {[
               { key: 'restaurant', label: 'Restaurant Name',   type: 'text', placeholder: 'Your restaurant name' },
               { key: 'owner',      label: 'Owner Name',        type: 'text', placeholder: 'Your full name' },

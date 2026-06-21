@@ -61,7 +61,7 @@ export default function ContactContent() {
       <section className="pb-20 md:pb-28">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-            <motion.div className="card rounded-2xl p-8" initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }}>
+            <motion.div className="card rounded-2xl p-5 sm:p-8" initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }}>
               <h2 className="font-barlow font-black text-2xl uppercase text-[#EFF2F7] mb-6">Send a Message</h2>
               <form onSubmit={handleSubmit} noValidate className="flex flex-col gap-5">
                 <div>

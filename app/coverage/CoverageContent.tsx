@@ -130,7 +130,7 @@ export default function CoverageContent() {
       {/* Map */}
       <section className="py-4">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <motion.div className="rounded-2xl overflow-hidden h-[400px] md:h-[500px]"
+          <motion.div className="rounded-2xl overflow-hidden h-[240px] sm:h-[400px] md:h-[500px]"
             style={{ border: '1px solid rgba(249,115,22,0.15)' }}
             initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }} transition={{ duration: 0.7 }}>
@@ -179,7 +179,7 @@ export default function CoverageContent() {
                     initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}
                     viewport={{ once: true }} transition={{ duration: 0.6, delay: zi * 0.1 }}>
 
-                    <div className="flex items-center gap-4 mb-6 lg:ml-20">
+                    <div className="flex items-center gap-4 mb-6 lg:ml-16 xl:ml-20">
                       <motion.div
                         className="relative w-12 h-12 rounded-2xl flex items-center justify-center flex-shrink-0"
                         style={{
@@ -205,7 +205,7 @@ export default function CoverageContent() {
                       </div>
                     </div>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3 lg:ml-20">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3 lg:ml-16 xl:ml-20">
                       {zonePoints.map(({ village, landmark }, vi) => (
                         <VillageCard key={village} village={village} landmark={landmark} index={vi} />
                       ))}
@@ -215,7 +215,7 @@ export default function CoverageContent() {
               })}
             </div>
 
-            <motion.div className="flex items-center gap-3 mt-12 lg:ml-20"
+            <motion.div className="flex items-center gap-3 mt-12 lg:ml-16 xl:ml-20"
               initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}>
               <div className="w-3 h-3 rounded-full bg-[#25D366]" style={{ boxShadow: '0 0 12px rgba(37,211,102,0.5)' }} />
               <span className="font-barlow font-bold text-xs uppercase tracking-wider text-[#25D366]">

@@ -192,7 +192,7 @@ export default function AboutPage() {
       <section className="py-20 md:py-28">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
           <span className="eyebrow text-[#F97316] mb-6 block">The Founder</span>
-          <div className="card rounded-2xl p-8 md:p-10 inline-block text-center">
+          <div className="card rounded-2xl p-6 sm:p-8 md:p-10 inline-block text-center">
             <div className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4" style={{ background: 'rgba(249,115,22,0.12)', border: '2px solid rgba(249,115,22,0.28)' }}>
               <span className="font-barlow font-black text-3xl text-[#F97316]">SI</span>
             </div>

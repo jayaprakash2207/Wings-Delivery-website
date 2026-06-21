@@ -35,7 +35,7 @@ export default function CTABanner() {
           <div className="leading-none">
             <div className="overflow-hidden">
               <motion.span className="block font-playfair text-[#EFF2F7] leading-[0.95]"
-                style={{ fontSize: 'clamp(3.5rem, 11vw, 10rem)', fontWeight: 700 }}
+                style={{ fontSize: 'clamp(2.2rem, 9vw, 10rem)', fontWeight: 700 }}
                 initial={{ y: '100%' }} whileInView={{ y: '0%' }} viewport={{ once: true }}
                 transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1] }}>
                 Save our number.
@@ -43,7 +43,7 @@ export default function CTABanner() {
             </div>
             <div className="overflow-hidden mt-2">
               <motion.span className="block font-playfair italic shimmer leading-[0.95]"
-                style={{ fontSize: 'clamp(2.5rem, 7vw, 6.5rem)', fontWeight: 700 }}
+                style={{ fontSize: 'clamp(1.6rem, 7vw, 6.5rem)', fontWeight: 700 }}
                 initial={{ y: '100%' }} whileInView={{ y: '0%' }} viewport={{ once: true }}
                 transition={{ duration: 1.1, delay: 0.12, ease: [0.22, 1, 0.36, 1] }}>
                 Order anytime.

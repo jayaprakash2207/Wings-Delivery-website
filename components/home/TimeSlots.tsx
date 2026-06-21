@@ -30,7 +30,7 @@ export default function TimeSlots() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {slots.map(({ meal, time, cutoff, label }, i) => (
             <motion.div key={`${meal}-${time}`}
-              className="card p-7 flex flex-col gap-5"
+              className="card p-5 sm:p-7 flex flex-col gap-5"
               initial={{ opacity: 0, y: 22 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -43,7 +43,7 @@ export default function TimeSlots() {
                 </div>
               </div>
               <div>
-                <span className="font-bebas block leading-none text-accent" style={{ fontSize: '3rem' }}>{time}</span>
+                <span className="font-bebas block leading-none text-accent" style={{ fontSize: 'clamp(2rem, 7vw, 3rem)' }}>{time}</span>
                 <span className="font-barlow font-semibold text-[9px] uppercase tracking-[0.3em] text-muted mt-1 block">{label}</span>
               </div>
               <div className="mt-auto pt-4" style={{ borderTop: '1px solid rgba(255,255,255,0.07)' }}>
