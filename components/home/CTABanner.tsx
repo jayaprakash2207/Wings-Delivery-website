@@ -61,12 +61,12 @@ export default function CTABanner() {
             style={{ background: 'rgba(249,115,22,0.06)', border: '1px solid rgba(249,115,22,0.15)' }}
             whileHover={{ scale: 1.02, borderColor: 'rgba(249,115,22,0.3)' }}>
             <Phone size={20} className="text-[#F97316]" />
-            <span className="font-bebas text-3xl md:text-4xl text-[#EFF2F7] tracking-wider">+91 91235 38768</span>
+            <span className="font-bebas text-3xl md:text-4xl text-[#EFF2F7] tracking-wider">+91 76038 14870</span>
           </motion.div>
 
           {/* CTA */}
           <motion.a
-            href="https://wa.me/919123538768?text=Hi%20Wings%20Delivery!%20I%20want%20to%20order%20food."
+            href="https://wa.me/917603814870?text=Hi%20Wings%20Delivery!%20I%20want%20to%20order%20food."
             target="_blank" rel="noopener noreferrer"
             className="btn-shine flex items-center gap-3 bg-[#25D366] text-white font-barlow font-black uppercase tracking-[0.16em] px-10 py-5 rounded-full shadow-lg shadow-[#25D366]/25"
             style={{ fontSize: '1.05rem' }}

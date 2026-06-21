@@ -2,9 +2,55 @@ import type { Metadata } from 'next'
 import { Award, Users, Store, MapPin } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'About Us',
-  description: 'Learn about Wings Delivery — founded in Uthukottai to solve rural food delivery. MSME-registered, locally loved.',
+  title:       'About Wings Delivery — Founded in Uthukottai, Tamil Nadu',
+  description:
+    'Wings Delivery was founded in 2026 by Sinivasan I in Uthukottai, Tiruvallur District to solve rural last-mile food delivery. MSME-registered (UDYAM-TN-24-0181981), serving 30+ villages via WhatsApp AI batch delivery.',
+  alternates:  { canonical: 'https://wingsdelivery.in/about' },
+  keywords: [
+    'Wings Delivery about', 'Sinivasan Wings Delivery founder',
+    'Wings Delivery Uthukottai story', 'MSME food delivery Tamil Nadu',
+    'rural food delivery startup Tamil Nadu', 'Uthukottai entrepreneur',
+    'UDYAM-TN-24-0181981', 'Wings Delivery MSME',
+  ],
+  openGraph: {
+    title:       'About Wings Delivery — Born in Uthukottai, Built for Tamil Nadu',
+    description: 'Founded in 2026 by Sinivasan I. MSME-registered. Serving 30+ villages in Tiruvallur District via WhatsApp AI food delivery.',
+    url:         'https://wingsdelivery.in/about',
+  },
 }
+
+const ABOUT_LD = [
+  {
+    '@context': 'https://schema.org',
+    '@type':    'AboutPage',
+    '@id':      'https://wingsdelivery.in/about#webpage',
+    url:        'https://wingsdelivery.in/about',
+    name:       'About Wings Delivery',
+    isPartOf:   { '@id': 'https://wingsdelivery.in/#website' },
+    about:      { '@id': 'https://wingsdelivery.in/#business' },
+    breadcrumb: {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home',  item: 'https://wingsdelivery.in' },
+        { '@type': 'ListItem', position: 2, name: 'About', item: 'https://wingsdelivery.in/about' },
+      ],
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type':    'Person',
+    name:       'Sinivasan I',
+    jobTitle:   'Founder & Operator',
+    worksFor:   { '@id': 'https://wingsdelivery.in/#business' },
+    description:'Entrepreneur from Uthukottai, Tiruvallur who founded Wings Delivery in 2026 to bridge the rural food delivery gap using WhatsApp AI technology.',
+    knowsAbout: ['Food Delivery', 'Rural Technology', 'WhatsApp Business', 'Batch Logistics'],
+    homeLocation: {
+      '@type':           'Place',
+      name:              'Uthukottai',
+      containedInPlace:  { '@type': 'AdministrativeArea', name: 'Tiruvallur District, Tamil Nadu' },
+    },
+  },
+]
 
 const values = [
   {
@@ -38,6 +84,10 @@ const stats = [
 
 export default function AboutPage() {
   return (
+    <>
+      {ABOUT_LD.map((schema, i) => (
+        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+      ))}
     <div className="pt-20">
       {/* Hero */}
       <section className="relative py-24 md:py-32 overflow-hidden">
@@ -179,5 +229,6 @@ export default function AboutPage() {
         </div>
       </section>
     </div>
+    </>
   )
 }

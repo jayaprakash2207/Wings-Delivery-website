@@ -79,7 +79,7 @@ export default function Navbar() {
             </nav>
 
             <div className="flex items-center gap-4">
-              <motion.a href="https://wa.me/919123538768?text=Hi%20Wings%20Delivery!%20I%20want%20to%20order%20food."
+              <motion.a href="https://wa.me/917603814870?text=Hi%20Wings%20Delivery!%20I%20want%20to%20order%20food."
                 target="_blank" rel="noopener noreferrer"
                 className="btn-shine hidden md:flex items-center gap-2 bg-[#25D366] text-white font-barlow font-black text-xs uppercase tracking-[0.16em] px-5 py-2.5 rounded-full"
                 whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}
@@ -120,7 +120,7 @@ export default function Navbar() {
                   </Link>
                 </motion.div>
               ))}
-              <motion.a href="https://wa.me/919123538768" target="_blank" rel="noopener noreferrer"
+              <motion.a href="https://wa.me/917603814870" target="_blank" rel="noopener noreferrer"
                 initial={{ opacity: 0, y: 22 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.14 + links.length * 0.07 }}
                 className="mt-4 flex items-center gap-2 bg-[#25D366] text-white font-barlow font-black text-lg uppercase tracking-[0.12em] px-8 py-3.5 rounded-full">
                 Order on WhatsApp

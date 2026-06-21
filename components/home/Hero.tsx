@@ -85,7 +85,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.9 }}>
               <motion.a
-                href="https://wa.me/919123538768?text=Hi%20Wings%20Delivery!%20I%20want%20to%20order%20food."
+                href="https://wa.me/917603814870?text=Hi%20Wings%20Delivery!%20I%20want%20to%20order%20food."
                 target="_blank" rel="noopener noreferrer"
                 className="btn-shine flex items-center gap-2.5 bg-[#25D366] text-white font-barlow font-black text-sm uppercase tracking-[0.14em] px-8 py-4 rounded-full shadow-lg shadow-[#25D366]/20"
                 whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(37,211,102,0.4)' }}

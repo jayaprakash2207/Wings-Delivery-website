@@ -76,7 +76,7 @@ export default function Footer() {
               ))}
             </ul>
             <div className="flex gap-2.5">
-              <a href="https://wa.me/919123538768" target="_blank" rel="noopener noreferrer"
+              <a href="https://wa.me/917603814870" target="_blank" rel="noopener noreferrer"
                 className="font-barlow font-black text-[10px] uppercase tracking-wider text-[#25D366] border border-[#25D366]/25 hover:border-[#25D366]/50 px-3 py-1.5 rounded-full transition-colors">
                 WhatsApp
               </a>

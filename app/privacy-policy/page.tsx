@@ -1,8 +1,16 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy',
-  description: 'Wings Delivery privacy policy — how we collect, use, and protect your data.',
+  title:       'Privacy Policy — Wings Delivery',
+  description:
+    'Wings Delivery privacy policy: how we collect, use, and protect your personal data when you order food via WhatsApp. We do not sell or share your data with third parties.',
+  alternates:  { canonical: 'https://wingsdelivery.in/privacy-policy' },
+  robots:      { index: true, follow: true },
+  openGraph: {
+    title:       'Privacy Policy — Wings Delivery',
+    description: 'How Wings Delivery handles your data, WhatsApp messages, and payment information.',
+    url:         'https://wingsdelivery.in/privacy-policy',
+  },
 }
 
 export default function PrivacyPolicyPage() {
@@ -118,7 +126,7 @@ export default function PrivacyPolicyPage() {
               title: '10. Contact Us',
               content: [
                 'For privacy-related queries: wingsdelivery95@gmail.com',
-                'WhatsApp: +91 91235 38768',
+                'WhatsApp: +91 76038 14870',
                 'Address: 35, Sakthikal Street, Perandur, Uthukottai, Tiruvallur, Tamil Nadu — 602026',
               ],
             },

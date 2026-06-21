@@ -1,0 +1,36 @@
+{
+  "name": "Wings Delivery",
+  "short_name": "Wings",
+  "description": "Tamil Nadu's first WhatsApp AI-powered food delivery for rural villages. Uthukottai to Periyapalayam, Tiruvallur.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B0E14",
+  "theme_color": "#F97316",
+  "orientation": "portrait-primary",
+  "lang": "en-IN",
+  "categories": ["food", "delivery", "shopping"],
+  "icons": [
+    {
+      "src": "/wings-delivery-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Order on WhatsApp",
+      "short_name": "Order Now",
+      "description": "Start a new order via WhatsApp",
+      "url": "https://wa.me/917603814870?text=Hi%20Wings%20Delivery!%20I%20want%20to%20order%20food.",
+      "icons": [{ "src": "/wings-delivery-logo.png", "sizes": "512x512" }]
+    },
+    {
+      "name": "Coverage Area",
+      "short_name": "Coverage",
+      "description": "View all 32 village pickup points",
+      "url": "/coverage",
+      "icons": [{ "src": "/wings-delivery-logo.png", "sizes": "512x512" }]
+    }
+  ]
+}

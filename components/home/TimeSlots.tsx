@@ -56,7 +56,7 @@ export default function TimeSlots() {
 
         <motion.p className="mt-8 text-center font-inter text-xs text-muted"
           initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}>
-          Open every day &middot; 11:00 AM – 9:00 PM &middot; +91 91235 38768
+          Open every day &middot; 11:00 AM – 9:00 PM &middot; +91 76038 14870
         </motion.p>
       </div>
     </section>

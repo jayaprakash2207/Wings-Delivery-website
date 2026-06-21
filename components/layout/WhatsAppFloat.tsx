@@ -15,7 +15,7 @@ export default function WhatsAppFloat() {
           initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }}
           exit={{ scale: 0, opacity: 0 }}
           transition={{ type: 'spring', stiffness: 260, damping: 20, delay: 1.5 }}>
-          <a href="https://wa.me/919123538768?text=Hi%20Wings%20Delivery!%20I%20want%20to%20order%20food."
+          <a href="https://wa.me/917603814870?text=Hi%20Wings%20Delivery!%20I%20want%20to%20order%20food."
             target="_blank" rel="noopener noreferrer" aria-label="Order on WhatsApp"
             className="relative flex items-center justify-center w-14 h-14 bg-[#25D366] rounded-full wa-glow hover:scale-110 transition-transform duration-200">
             <span className="wa-ring-1 absolute inset-0 rounded-full bg-[#25D366]/40" />

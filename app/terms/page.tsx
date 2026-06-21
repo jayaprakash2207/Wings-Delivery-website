@@ -1,8 +1,16 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Terms of Service',
-  description: 'Wings Delivery terms of service — ordering, cancellation, refund policy and more.',
+  title:       'Terms of Service — Wings Delivery',
+  description:
+    'Wings Delivery terms of service. Learn about our ordering process, cancellation policy, refund rules, hub-pickup responsibility, and governing law for Tiruvallur, Tamil Nadu.',
+  alternates:  { canonical: 'https://wingsdelivery.in/terms' },
+  robots:      { index: true, follow: true },
+  openGraph: {
+    title:       'Terms of Service — Wings Delivery',
+    description: 'Read the Wings Delivery terms of service: ordering, payments, cancellations, refunds, and more.',
+    url:         'https://wingsdelivery.in/terms',
+  },
 }
 
 export default function TermsPage() {
@@ -43,7 +51,7 @@ export default function TermsPage() {
             {
               title: '2. Order Placement',
               content: [
-                'Orders must be placed via WhatsApp at +91 91235 38768',
+                'Orders must be placed via WhatsApp at +91 76038 14870',
                 'Orders must be confirmed before the batch cutoff time',
                 'Batch cutoffs: 11:30 AM (12 PM batch), 12:30 PM (1 PM batch), 6:00 PM (6:30 PM batch), 7:00 PM (7:30 PM batch)',
                 'Late orders will be scheduled for the next available batch',
@@ -139,7 +147,7 @@ export default function TermsPage() {
               title: '12. Contact',
               content: [
                 'Email: wingsdelivery95@gmail.com',
-                'WhatsApp: +91 91235 38768',
+                'WhatsApp: +91 76038 14870',
                 'Address: 35, Sakthikal Street, Perandur, Uthukottai, Tiruvallur, Tamil Nadu — 602026',
               ],
             },
