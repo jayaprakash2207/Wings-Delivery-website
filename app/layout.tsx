@@ -66,7 +66,6 @@ export const metadata: Metadata = {
     creator:     '@wingsdelivere',
   },
   icons: {
-    icon:  [{ url: '/wings-delivery-logo.png', type: 'image/png', sizes: '512x512' }],
     apple: '/wings-delivery-logo.png',
   },
   manifest: '/manifest.json',
