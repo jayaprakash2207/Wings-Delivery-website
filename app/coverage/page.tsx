@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title:       'Coverage Area — 32 Villages, Uthukottai to Periyapalayam',
   description:
     'Wings Delivery covers 32 villages across the Uthukottai–Periyapalayam corridor in Tiruvallur, Tamil Nadu. Every village has its own pickup landmark — temple, bus stop, dairy, or junction.',
-  alternates:  { canonical: 'https://wingsdelivery.in/coverage' },
+  alternates:  { canonical: 'https://wings-delivery.com/coverage' },
   keywords: [
     'food delivery coverage Uthukottai', 'delivery villages Tiruvallur',
     'Wings Delivery villages', 'Uthukottai Periyapalayam food delivery',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title:       'Coverage — 32 Villages Across Uthukottai to Periyapalayam',
     description: 'Wings Delivery serves 32 villages in Tiruvallur District, Tamil Nadu. View all pickup points on our route map.',
-    url:         'https://wingsdelivery.in/coverage',
+    url:         'https://wings-delivery.com/coverage',
   },
 }
 
@@ -24,27 +24,27 @@ const COVERAGE_LD = [
   {
     '@context': 'https://schema.org',
     '@type':    'WebPage',
-    '@id':      'https://wingsdelivery.in/coverage#webpage',
-    url:        'https://wingsdelivery.in/coverage',
+    '@id':      'https://wings-delivery.com/coverage#webpage',
+    url:        'https://wings-delivery.com/coverage',
     name:       'Coverage Area — Wings Delivery',
-    isPartOf:   { '@id': 'https://wingsdelivery.in/#website' },
-    about:      { '@id': 'https://wingsdelivery.in/#business' },
+    isPartOf:   { '@id': 'https://wings-delivery.com/#website' },
+    about:      { '@id': 'https://wings-delivery.com/#business' },
     breadcrumb: {
       '@type': 'BreadcrumbList',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home',     item: 'https://wingsdelivery.in' },
-        { '@type': 'ListItem', position: 2, name: 'Coverage', item: 'https://wingsdelivery.in/coverage' },
+        { '@type': 'ListItem', position: 1, name: 'Home',     item: 'https://wings-delivery.com' },
+        { '@type': 'ListItem', position: 2, name: 'Coverage', item: 'https://wings-delivery.com/coverage' },
       ],
     },
   },
   {
     '@context': 'https://schema.org',
     '@type':    'Service',
-    '@id':      'https://wingsdelivery.in/coverage#service',
+    '@id':      'https://wings-delivery.com/coverage#service',
     name:       'Batch Food Delivery — Uthukottai to Periyapalayam',
     description:
       'Wings Delivery provides WhatsApp-based batch food delivery across 32 villages in the Uthukottai–Periyapalayam corridor, Tiruvallur District, Tamil Nadu.',
-    provider:   { '@id': 'https://wingsdelivery.in/#business' },
+    provider:   { '@id': 'https://wings-delivery.com/#business' },
     areaServed: [
       { '@type': 'City', name: 'Uthukottai',        containedInPlace: { '@type': 'AdministrativeArea', name: 'Tiruvallur' } },
       { '@type': 'City', name: 'Tharatchi',         containedInPlace: { '@type': 'AdministrativeArea', name: 'Tiruvallur' } },

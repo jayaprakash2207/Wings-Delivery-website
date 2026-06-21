@@ -10,7 +10,7 @@ const barlow   = Barlow_Condensed({ subsets: ['latin'], weight: ['400','600','70
 const inter    = Inter({ subsets: ['latin'], weight: ['300','400','500','600'], variable: '--font-inter', display: 'swap' })
 const bebas    = Bebas_Neue({ subsets: ['latin'], weight: ['400'], variable: '--font-bebas', display: 'swap' })
 
-const BASE_URL = 'https://wingsdelivery.in'
+const BASE_URL = 'https://wings-delivery.com'
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),

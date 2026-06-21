@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: [],
       },
     ],
-    sitemap: 'https://wingsdelivery.in/sitemap.xml',
-    host:    'https://wingsdelivery.in',
+    sitemap: 'https://wings-delivery.com/sitemap.xml',
+    host:    'https://wings-delivery.com',
   }
 }

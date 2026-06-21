@@ -14,11 +14,11 @@ export const metadata: Metadata = {
   title: 'Wings Delivery — Food Delivery Across 30+ Villages in Tamil Nadu',
   description:
     'Wings Delivery: Tamil Nadu\'s first WhatsApp AI-powered food delivery for rural villages. Serving Uthukottai, Periyapalayam, Thandalam and 30+ more villages in Tiruvallur. Order in Tamil. 4 batches daily.',
-  alternates: { canonical: 'https://wingsdelivery.in' },
+  alternates: { canonical: 'https://wings-delivery.com' },
   openGraph: {
     title:       'Wings Delivery — Food That Flies to Your Village',
     description: 'Order food via WhatsApp in Tamil, Tanglish, Telugu, or English. 32 pickup points across 30+ villages in Uthukottai–Periyapalayam corridor, Tiruvallur.',
-    url:         'https://wingsdelivery.in',
+    url:         'https://wings-delivery.com',
     type:        'website',
   },
 }
@@ -26,16 +26,16 @@ export const metadata: Metadata = {
 const HOME_LD = {
   '@context': 'https://schema.org',
   '@type':    'WebPage',
-  '@id':      'https://wingsdelivery.in/#webpage',
-  url:        'https://wingsdelivery.in',
+  '@id':      'https://wings-delivery.com/#webpage',
+  url:        'https://wings-delivery.com',
   name:       'Wings Delivery — Food Delivery Across 30+ Villages in Tamil Nadu',
-  isPartOf:   { '@id': 'https://wingsdelivery.in/#website' },
-  about:      { '@id': 'https://wingsdelivery.in/#business' },
+  isPartOf:   { '@id': 'https://wings-delivery.com/#website' },
+  about:      { '@id': 'https://wings-delivery.com/#business' },
   description:
     "Tamil Nadu's first WhatsApp AI-powered food delivery for rural villages in Uthukottai and Tiruvallur District.",
   breadcrumb: {
     '@type':           'BreadcrumbList',
-    itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://wingsdelivery.in' }],
+    itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://wings-delivery.com' }],
   },
 }
 

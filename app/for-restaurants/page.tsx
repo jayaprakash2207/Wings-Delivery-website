@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title:       'For Restaurants — Partner with Wings Delivery',
   description:
     'Partner your restaurant with Wings Delivery. Reach 30+ villages in Tiruvallur District with zero delivery hassle. Weekly settlements, WhatsApp order integration, and growing customer base in Uthukottai and surrounding villages.',
-  alternates:  { canonical: 'https://wingsdelivery.in/for-restaurants' },
+  alternates:  { canonical: 'https://wings-delivery.com/for-restaurants' },
   keywords: [
     'restaurant partner Wings Delivery', 'food delivery partner Tamil Nadu',
     'restaurant delivery Uthukottai', 'partner restaurant Tiruvallur',
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title:       'Partner with Wings Delivery — Reach 30+ Villages',
     description: 'List your restaurant with Wings Delivery and reach 30+ villages in Tiruvallur. Zero delivery setup, weekly payouts, WhatsApp order management.',
-    url:         'https://wingsdelivery.in/for-restaurants',
+    url:         'https://wings-delivery.com/for-restaurants',
   },
 }
 
@@ -23,15 +23,15 @@ const RESTAURANT_LD = [
   {
     '@context': 'https://schema.org',
     '@type':    'WebPage',
-    '@id':      'https://wingsdelivery.in/for-restaurants#webpage',
-    url:        'https://wingsdelivery.in/for-restaurants',
+    '@id':      'https://wings-delivery.com/for-restaurants#webpage',
+    url:        'https://wings-delivery.com/for-restaurants',
     name:       'For Restaurants — Wings Delivery',
-    isPartOf:   { '@id': 'https://wingsdelivery.in/#website' },
+    isPartOf:   { '@id': 'https://wings-delivery.com/#website' },
     breadcrumb: {
       '@type': 'BreadcrumbList',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home',            item: 'https://wingsdelivery.in' },
-        { '@type': 'ListItem', position: 2, name: 'For Restaurants', item: 'https://wingsdelivery.in/for-restaurants' },
+        { '@type': 'ListItem', position: 1, name: 'Home',            item: 'https://wings-delivery.com' },
+        { '@type': 'ListItem', position: 2, name: 'For Restaurants', item: 'https://wings-delivery.com/for-restaurants' },
       ],
     },
   },
@@ -40,7 +40,7 @@ const RESTAURANT_LD = [
     '@type':    'Service',
     name:       'Restaurant Partnership Program — Wings Delivery',
     description:'Wings Delivery restaurant partner program. List your restaurant and reach 30+ villages in Uthukottai and Tiruvallur District via WhatsApp batch delivery.',
-    provider:   { '@id': 'https://wingsdelivery.in/#business' },
+    provider:   { '@id': 'https://wings-delivery.com/#business' },
     serviceType:'Restaurant Delivery Partnership',
     areaServed: {
       '@type':           'AdministrativeArea',
@@ -49,7 +49,7 @@ const RESTAURANT_LD = [
     },
     availableChannel: {
       '@type':    'ServiceChannel',
-      serviceUrl: 'https://wingsdelivery.in/for-restaurants',
+      serviceUrl: 'https://wings-delivery.com/for-restaurants',
       servicePhone: '+917603814870',
     },
     offers: {

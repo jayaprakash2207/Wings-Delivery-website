@@ -4,12 +4,12 @@ export const metadata: Metadata = {
   title:       'Terms of Service — Wings Delivery',
   description:
     'Wings Delivery terms of service. Learn about our ordering process, cancellation policy, refund rules, hub-pickup responsibility, and governing law for Tiruvallur, Tamil Nadu.',
-  alternates:  { canonical: 'https://wingsdelivery.in/terms' },
+  alternates:  { canonical: 'https://wings-delivery.com/terms' },
   robots:      { index: true, follow: true },
   openGraph: {
     title:       'Terms of Service — Wings Delivery',
     description: 'Read the Wings Delivery terms of service: ordering, payments, cancellations, refunds, and more.',
-    url:         'https://wingsdelivery.in/terms',
+    url:         'https://wings-delivery.com/terms',
   },
 }
 
